@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & external symlinks
+venv
+venv/
+env/
+ENV/
+vendors
+vendors/
+
+# Local Environment Variables & Secrets
+.env
+*.local
+*.secret
+
+# Run logs & PIDs
+gateway.pid
+gateway.log
+*.log
+*.pid
+
+# Local SQLite databases & cache
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/*.db
+data/*.db-journal
+
+# Local lead data & research captures (kept locally on VPS)
+data/*.json
+data/*.md
+data/screenshots/*.png
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+*.swp
